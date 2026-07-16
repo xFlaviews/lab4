@@ -1,0 +1,19 @@
+index.html
+  s_f32dde8f7ae330::t_8b4819ba7c1e7c 1-306
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ce9e815dfc4e723b09a64e8c766da2fcc28e7205",
+  "prompts": {},
+  "sessions": {
+    "s_f32dde8f7ae330": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d7942b35-c0f0-4581-af5a-616d9fa8a328",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "xFlaviews <155723308+xFlaviews@users.noreply.github.com>"
+    }
+  }
+}
