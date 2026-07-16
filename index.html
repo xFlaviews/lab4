@@ -56,7 +56,7 @@ nav .dot{color:var(--accent)}
 @keyframes up{to{opacity:1; transform:none}}
 
 /* STATEMENT */
-.statement{padding:clamp(84px,15vh,180px) 0 clamp(60px,9vh,110px)}
+.statement{padding-block:clamp(84px,15vh,180px) clamp(60px,9vh,110px)}
 .big{font-weight:400; text-transform:uppercase; letter-spacing:-.02em; line-height:.98; font-size:clamp(38px,8.5vw,120px); text-wrap:balance; margin:0}
 .big .line{display:block; overflow:hidden}
 .big .line>span{display:block; transform:translateY(112%); transition:transform .95s cubic-bezier(.16,1,.3,1)}
@@ -79,7 +79,7 @@ nav .dot{color:var(--accent)}
 .reveal{opacity:0; transform:translateY(34px); transition:opacity .9s ease, transform .9s cubic-bezier(.16,1,.3,1)}
 .reveal.in{opacity:1; transform:none}
 
-section{padding:clamp(80px,10vw,130px) 0}
+section{padding-block:clamp(80px,10vw,130px)}
 .two{display:grid; grid-template-columns:220px 1fr; gap:clamp(24px,5vw,72px); align-items:start}
 @media (max-width:720px){.two{grid-template-columns:1fr; gap:32px}}
 .body{color:var(--muted); max-width:58ch; font-size:16px}
@@ -131,7 +131,7 @@ section{padding:clamp(80px,10vw,130px) 0}
 .row .v{font-size:clamp(19px,2.4vw,28px); font-weight:300; letter-spacing:-.01em}
 .row .v.mono{font-family:var(--mono); font-size:clamp(15px,1.9vw,19px); font-weight:400}
 
-footer{padding:44px 0 60px; display:flex; flex-wrap:wrap; gap:16px 32px; justify-content:space-between; align-items:baseline}
+footer{padding-block:44px 60px; display:flex; flex-wrap:wrap; gap:16px 32px; justify-content:space-between; align-items:baseline}
 .brand{font-family:var(--mono); font-size:13px}.brand b{font-weight:600}.brand span{color:var(--muted)}
 a:focus-visible{outline:2px solid var(--accent); outline-offset:3px}
 @media (prefers-reduced-motion:reduce){
