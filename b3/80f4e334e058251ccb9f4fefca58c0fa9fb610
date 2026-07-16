@@ -1,0 +1,19 @@
+index.html
+  s_f32dde8f7ae330::t_70599006d6e15a 5,7-8,13-14,16-19,23-24,29,31,33,44,51,55,59-85,89,91-93,95-97,99-108,113-119,126-127,131,135,138,144-148,174-181,184-197,200-206,208-216,218-225,227-232,237,239-244,251-264,266-267,278,280-281,308,314-315,325,328,331,335-341
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b380f4e334e058251ccb9f4fefca58c0fa9fb610",
+  "prompts": {},
+  "sessions": {
+    "s_f32dde8f7ae330": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d7942b35-c0f0-4581-af5a-616d9fa8a328",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "xFlaviews <155723308+xFlaviews@users.noreply.github.com>"
+    }
+  }
+}
